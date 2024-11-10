@@ -1,0 +1,80 @@
+:root{
+    --beigh-color:#e7dfd8;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+}
+.container {
+    width: 1180px;
+    padding: 0 15px;
+    outline: solid 1px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-list {
+  /*  flex-grow: 1;*/
+    display: flex;
+    /*flex-basis: 800px;используется сколько
+     места займет этот елемент*/
+   /* background-color: coral;
+    flex:2 1 300px */
+}
+.nav-item {
+    margin-right: 32px;
+} /*order означает порядок
+.nav-item:nth-child(1){
+order:3;
+}
+.nav-item:nth-child(2){
+    order: 4;
+}
+.nav-item:nth-child(3){
+    order:2;
+    
+}
+.nav-item:nth-child(4){
+    order: 1;
+}*/
+.nav-item:last-child{
+    margin-right: 0;
+}
+.nav-link {
+}
+.nav-contact {
+   /* flex-grow: 4;*/
+    display: flex;
+   /* background-color: chartreuse;
+   flex:1 2 300px*/
+}
+.contact {
+}
+.advatages {
+    background-color: var(--beigh-color);
+    padding-top: 81px;
+    padding-bottom: 76px;
+}
+.container {
+}
+.advatages-wrap {
+}
+.advatages-title {
+}
+.advatages-text {
+}
+.advatages-img {
+}
